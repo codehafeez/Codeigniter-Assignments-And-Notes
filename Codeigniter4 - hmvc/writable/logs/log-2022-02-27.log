@@ -1,0 +1,322 @@
+ERROR - 2022-02-27 00:26:46 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-02-27 00:26:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\codeigniter4\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\codeigniter4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\codeigniter4\app\Models\Task_model.php(11): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): App\Models\Task_model->getTask()
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-27 00:26:55 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-02-27 00:26:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\codeigniter4\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\codeigniter4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\codeigniter4\app\Models\Task_model.php(11): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): App\Models\Task_model->getTask()
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-27 00:28:32 --> Undefined array key "task"
+#0 C:\xampp\htdocs\codeigniter4\app\Views\welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(12): view('welcome_message', Array)
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-27 00:29:33 --> syntax error, unexpected token "."
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(12): view('welcome_message', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-27 00:29:56 --> syntax error, unexpected token "."
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(12): view('welcome_message', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-27 00:30:24 --> Undefined variable $tasks
+#0 C:\xampp\htdocs\codeigniter4\app\Views\welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(12): view('welcome_message', Array)
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-27 00:30:34 --> Undefined variable $tasks
+#0 C:\xampp\htdocs\codeigniter4\app\Views\welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(12): view('welcome_message', Array)
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-27 00:30:55 --> Attempt to read property "description" on array
+#0 C:\xampp\htdocs\codeigniter4\app\Views\welcome_message.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(12): view('welcome_message', Array)
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-27 00:33:26 --> syntax error, unexpected token "foreach"
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(12): view('welcome_message', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-27 00:33:37 --> syntax error, unexpected token "foreach"
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(12): view('welcome_message', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-27 00:34:55 --> syntax error, unexpected token "foreach"
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(12): view('welcome_message', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-27 00:35:18 --> syntax error, unexpected token "foreach"
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(12): view('welcome_message', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-27 00:35:36 --> syntax error, unexpected token "foreach"
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(12): view('welcome_message', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-27 00:36:14 --> syntax error, unexpected token "foreach"
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(12): view('welcome_message', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-27 00:39:18 --> syntax error, unexpected identifier "base_url", expecting "," or ";"
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(12): view('welcome_message', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-27 00:46:13 --> Call to undefined method App\Models\Task_model::getTask
+#0 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): CodeIgniter\Model->__call('getTask', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-27 01:06:40 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id
+#0 C:\xampp\htdocs\codeigniter4\app\Views\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('edit', Array, true)
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(30): view('edit', Array)
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->edit('1')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-27 01:06:59 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id
+#0 C:\xampp\htdocs\codeigniter4\app\Views\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('edit', Array, true)
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(30): view('edit', Array)
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->edit('1')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-27 01:07:03 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id
+#0 C:\xampp\htdocs\codeigniter4\app\Views\edit.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('edit', Array, true)
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(30): view('edit', Array)
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->edit('1')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-27 01:07:18 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('edit', Array, true)
+#3 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(30): view('edit', Array)
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->edit('1')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-27 02:54:51 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-27 04:28:03 --> Class "App\Controllers\App\Libraries\HafeezTask" not found
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-27 04:29:11 --> Class "App\Libraries\App\Models\Task_model" not found
+#0 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(13): App\Libraries\HafeezTask->getData(8)
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-27 04:43:14 --> Class "App\Libraries" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Config\BaseService.php(189): Config\Services::HafeezClassFun(false)
+#1 C:\xampp\htdocs\codeigniter4\app\Config\Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('hafeezclassfun')
+#2 C:\xampp\htdocs\codeigniter4\system\Common.php(929): Config\Services::HafeezClassFun()
+#3 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(9): service('HafeezClassFun')
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-27 04:56:27 --> Undefined variable $model
+#0 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-27 04:56:48 --> Class "App\Controllers\App\Models\Task_model" not found
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-27 04:56:54 --> Undefined variable $model
+#0 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-27 04:57:13 --> Class "App\Controllers\App\Models\Task_model" not found
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-27 04:57:49 --> Class "App\Controllers\App\Models\Task_model" not found
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-27 04:58:06 --> Class "App\Controllers\App\Models\Task_model" not found
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-27 04:59:20 --> Class "App\Controllers\App\Models\Task_model" not found
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-27 04:59:22 --> Class "App\Controllers\App\Models\Task_model" not found
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-27 05:14:12 --> Class "CodeIgniter\Hafeez" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Hafeez\\User...')
+#3 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Hafeez\\User...')
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-27 05:15:15 --> Class "CodeIgniter\Hafeez" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Hafeez\\User...')
+#3 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Hafeez\\User...')
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-27 05:17:12 --> Class "CodeIgniter\Hafeez" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Hafeez\\User...')
+#3 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Hafeez\\User...')
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-27 05:19:22 --> Class "CodeIgniter\Hafeez" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Hafeez\\User...')
+#3 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Hafeez\\User...')
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
